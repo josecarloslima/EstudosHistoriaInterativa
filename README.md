@@ -1,2 +1,2 @@
-# EstudosHistoriaInterativa
- Estudos de Objeto com Histórias Interativas e fichas de RPG dinâmicas
+# ProjetoHistoriaInterativa
+ Criação de uma históia interativa.

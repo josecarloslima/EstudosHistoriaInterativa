@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css">
+    <title>Ficha Dinâmica</title>
+</head>
+
+<body>
+    <div id="camposEntrada">
+        <header>
+            <h1>Kuro</h1>
+            <h2>Ficha de Personagem</h2>
+            <div id="cabecalho"></div>
+        </header>
+        <div id="afis">
+            <h3>Atributos Físicos</h3>
+            <p>DEStreza <input type="number" id="txtDES" onchange="atualizarAFIS('destreza', this.value)"></p>
+            <p>FORça <input type="number" id="txtFOR"></p>
+            <p>TOLerância <input type="number" id="txtTOL"></p>
+            <p>REFlexo <input type="number" id="txtREF"></p>
+        </div>
+        <div id="amen">
+            <h3>Atributos Mentais</h3>
+            <p>INTeligência <input type="number" id="txtINT"></p>
+            <p>PERcepção <input type="number" id="txtPER"></p>
+            <p>CARisma <input type="number" id="txtCAR"></p>
+            <p>VONtade <input type="number" id="txtVON"></p>
+        </div>
+    </div>
+    <div id="fichaExibida"></div>
+
+
+    <button onclick="exibirFicha()">Exibir Ficha</button>
+    <button onclick="voltarParaEntrada()">Voltar</button>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
